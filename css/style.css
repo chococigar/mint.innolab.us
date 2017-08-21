@@ -1,0 +1,217 @@
+html, body {
+        overflow-y: visible;
+    }
+.each_div{
+  border: 1px solid rgb(28, 83, 121);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.loading-div{
+  font-size: 30px;
+  color: #737373;
+  text-align: center;
+  padding-top: 100px;
+}
+.title-area {
+    background-color:#b2ffd9;
+    color:#373723;
+    height:60px;
+    padding : 16px 10px 10px 10px ;
+    text-align: center;
+}
+.relative_keywords{
+  padding: 8px;
+}
+.relative_keywords>a:before{
+  content:"# "
+}
+.relative_keywords>a{
+  border-radius: 9px;
+  padding: 5px 8px;
+  background-color: #b2ffd9;
+  color:#373723;
+  line-height: 2.4;
+}
+
+.tagcloud01 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tagcloud01 ul li {
+	display: inline-block;
+	margin: 0 3px 2px 0;
+	padding: 0;
+}
+.tagcloud01 ul li a {
+	display: inline-block;
+	max-width: 150px;
+
+    font-size: 13px;
+
+    line-height: 25px;
+
+	padding: 0.2em 0.5em;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #333;
+
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+.tagcloud01 ul li a:hover {
+	background-color: #b2ffd9;
+	border: 1px solid #b2ffd9;
+	color: #373723;
+}
+
+
+.font_title {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+.issue_list_wrap {
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+  }
+.ellip {
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.tooltip{
+  z-index: 2000;
+}
+.table td:first-child{
+  width: 100px;
+}
+.table td{
+  vertical-align: middle;
+
+}
+
+.col-sm-2{
+  padding-left: 1px;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+  background-color: #1c5379;
+  border-color: #1c5379;
+  border-width: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-search{
+  margin-top:1px;
+  background-color: #d95f5f;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: #d95f5f;
+  border-width: 2px;
+}
+
+.btn-copy{
+  background-color: #ffffff;
+  color: #1c5379;
+  font-size: 18px;
+  border-color: #1c5379;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.btn-delay{
+  background-color: #ffffff;
+  color: #d95f5f;
+  font-size: 18px;
+  border-color: #d95f5f;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.compared{
+  background-color: #582ADB;
+  border-radius: 10%;
+  color: white;
+  font-size: 10px;
+  padding: 3px;
+  margin-left: 3px;
+}
+.label-primary {
+    background-color: white;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 70%;
+    font-weight: 400;
+    line-height: 1;
+    color: #999;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+
+}
+.finished{
+  background-color: #c9c9c9;
+  color: #888888;
+}
+
+
+.panel-info>.panel-heading:before {
+  content: url(../img/truck.png);
+}
+
+.panel-info>.panel-heading>b {
+  vertical-align: text-bottom;
+}
+
+.panel-info {
+  border-color: #ffffff;
+  font-size: 14px;
+
+}
+
+.panel-info>.panel-heading {
+    color: #ffffff;
+    border-color: #1c5379;
+    background-image: linear-gradient(to right,#1c5379 0,#1c5379 30%);
+}
+
+b, strong {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn{
+  border-radius: 6px;
+  margin-top: -2px;
+
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c9c9c9;
+    border-radius: 0px;
+}
+.not_exist{
+  color:#d95f5f;
+}
