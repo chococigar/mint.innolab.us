@@ -24,70 +24,52 @@
 
 </head>
 <body style="overflow: visible;">
+  <div class="h">
 
-    <div class='title-area'>
-
-      <font class="font_title">M.I.N.T</font>
+    <div class="title-area">
+      <img src="./img/mint_thinwhite.png" alt="mint" style="width:400px;margin-top:150px">
+      <br><br><font color:#FFFFFF>Market&nbsp;Investigation&nbsp;&&nbsp;Navigating&nbsp;Trend</font>
 
     </div>
 
 
     <div class="container">
-
       <div class="row row-offcanvas row-offcanvas-right">
-
         <div class="col-sm-12">
-          <h3><span class="label label-primary"><i class="glyphicon glyphicon-align-left"></i> &nbsp;검색어 리스트</span></h3>
-
-          <textarea id="searchArea" class="form-control" rows="10" placeholder="카테고리 + 브랜드 를 입력하세요"></textarea>
-
-          <div id="info" class="alert alert-primary" style="    background-color: white;
-    color: #1c5379;
-    font-size: 18px;" role="alert" >데이터 기준은 입력한 키워드의 네이버 까페/블로그 기준 전년, 전전년 대비 검색 건수 입니다.</div>
-          <div class="row">
-            <div class="col-sm-12"><button id="search"  type="button" class="btn btn-search btn-block">검색 <i class="glyphicon glyphicon-search"></i></button></div>
-            <!-- <div class="col-sm-2"><button id="copy" type="button" class="btn btn-copy btn-block">전체 <i class="glyphicon glyphicon-save"></i></button></div>
-             <div class="col-sm-2"><button id="copy-delay" type="button" class="btn btn-delay btn-block">지연 <i class="glyphicon glyphicon-save"></i></button></div> -->
+          <font color=#FFFFFF><textarea id="searchArea" class="form-control" rows="4" placeholder="예시) 여자 옷&#13;&#10;두피샴푸&#13;&#10;TS샴푸"></textarea></font>
+          <div id="info" class="alert alert-primary" style="font-family:NanumGothic;color: #FFFFFF;margin:auto;font-size: 14px;" role="alert">데이터 기준은 입력한 키워드의 네이버 까페/블로그 기준 전년, 전전년 대비 검색 건수 입니다.
           </div>
-
+          <br><br>
+          <div class="col-md-4 box"><button id="keyrec" type="button" class="btn btn-search btn-block"><font face="rubrik_lightregular">키워드 추천</font></button></div>
+          <div class="col-md-4 box"><button id="search" type="button" class="btn btn-search btn-block"><font face="rubrik_lightregular">검색</font></button></div>
+          <div class="col-md-4 box"><button id="lightsearch" type="button" class="btn btn-search btn-block"><font face="rubrik_lightregular">네이버 DataLab 검색 추이</font></button></div>
         </div>
-
-      </div>
-
-      <br/>
-
-
-      <div class="row">
-
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="x_panel">
-            <div class="x_title">
-
-              <ul class="nav navbar-right panel_toolbox">
-
-              </ul>
-              <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" id="every-here">
-
+        <br>
+        
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <ul class="nav navbar-right panel_toolbox"></ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content" id="every-here">
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
     </div><!--/.container-->
+      
+      
     <script src="js/echarts.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/test.js"></script>
     <script>
-
     var _AnalyticsCode = 'UA-91675162-4';
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', _AnalyticsCode]);
     _gaq.push(['_trackPageview']);
-
-
     (function() {
     var ga = document.createElement('script');
     ga.type = 'text/javascript';
@@ -96,7 +78,6 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
     })();
-
     </script>
 
 </body>
