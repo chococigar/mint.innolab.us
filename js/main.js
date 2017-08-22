@@ -1,20 +1,20 @@
+//test
 
+var tbodyContent="";
+var tDelayContent = "";
 
-	var tbodyContent="";
-  var tDelayContent = "";
+var ajax = function(options, callback) {
+var xhr;
+xhr = new XMLHttpRequest();
+xhr.open(options.type, options.url, options.async || true);
 
-	var ajax = function(options, callback) {
-	  var xhr;
-	  xhr = new XMLHttpRequest();
-	  xhr.open(options.type, options.url, options.async || true);
-
-	  xhr.onreadystatechange = function() {
-	    if (xhr.readyState === 4) {
-	      return callback(xhr.responseText,options.url);
-	    }
-	  };
-	  return xhr.send();
-	};
+xhr.onreadystatechange = function() {
+	if (xhr.readyState === 4) {
+		return callback(xhr.responseText,options.url);
+   	}
+  };
+  return xhr.send();
+};
 
 
 	function callNaverDatalab(v){
