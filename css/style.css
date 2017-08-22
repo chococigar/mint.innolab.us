@@ -15,7 +15,7 @@
 }
 @font-face {
     	font-family: 'NanumGothic';
-    	src: url(./MINT2_files/NanumGothic.ttf);
+    	src: url(./fonts/NanumGothic.ttf);
     	font-weight: normal;
 }
 
@@ -24,7 +24,7 @@ html, body {
     }
 .h{
     	height:800px;
-    	background-image:url("desktop.jpg");
+    	background-image:url("./img/desktop.jpg");
     	background-size:     cover;
     	background-repeat:   no-repeat;
     	background-position: center center;
